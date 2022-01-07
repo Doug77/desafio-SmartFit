@@ -1,0 +1,315 @@
+@import '/_material/code/css/fonts.css';
+
+html {
+  --background: #ffffff;
+  --dark-grey: #333333;
+  --light-grey: #808080;
+  --yellow: #ffb612;
+  --red: #dc0a17;
+  --green: #2fc022;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  overflow-x: none;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+#logo-fit {
+  background-color: black;
+  text-align: center;
+  padding: 25px;
+  width: 100%;
+}
+
+#logo-fit img {
+  width: 190px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-section {
+  margin-top: 97px;
+  width: 70%;
+}
+
+.title {
+  font-family: 'fontBold';
+  font-size: 30px;
+  color: var(--dark-grey);
+}
+
+hr {
+  width: 110px;
+  height: 10px;
+  background-color: var(--dark-grey);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.subTitle {
+  font-family: 'fontBook';
+  color: var(--dark-grey);
+}
+
+#search-unity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.shift {
+  display: flex;
+  justify-content: space-between;
+}
+
+#form-container {
+  font-family: 'fontLight';
+  color: var(--light-grey);
+  border: 3px solid #ededed;
+  border-radius: 5px;
+  width: 66%;
+  padding: 20px;
+}
+
+.hrForm1 {
+  margin: 10px 0px 30px 0px;
+  height: 2px;
+  width: 100%;
+  background-color: #ededed;
+  opacity: 70%;
+}
+
+.hrForm {
+  margin: 10px 0px 10px 0px;
+  height: 2px;
+  width: 100%;
+  background-color: #e6e6e6;
+  opacity: 70%;
+}
+
+#clock {
+  width: 30px;
+  margin-right: 10px;
+}
+
+#clock-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.choosePeriod {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+#hour {
+  font-size: 18px;
+}
+
+#close-unity {
+  display: flex;
+  justify-content: space-between;
+}
+
+#result-counter {
+  display: flex;
+}
+
+#close-unity {
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+#btn-container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#find-btn {
+  width: 330px;
+  padding: 15px 0px;
+  margin-right: 5px;
+  font-size: 15px;
+  font-family: 'fontBold';
+  background-color: var(--yellow);
+  border-radius: 5px;
+  border: 2px solid var(--yellow);
+  transition: 0.2s;
+}
+
+#clear-btn {
+  transition: 0.2s;
+  width: 330px;
+  padding: 15px 0px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: 'fontBold';
+  border-radius: 5px;
+  border: 2px solid #cecece;
+  background-color: var(--background);
+}
+
+#clear-btn:hover {
+  transition: 0.2s;
+  background-color: #cecece;
+}
+
+#find-btn:hover {
+  background-color: #dba21d;
+  border: 2px solid #dba21d;
+  transition: 0.2s;
+}
+
+/* ===============Itens recomendados/obrigatorios ===================*/
+
+#info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.iten-info {
+  text-align: center;
+}
+
+.icon-info {
+  width: 50px;
+}
+
+.img-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.figure {
+  text-align: center;
+  margin-right: 5px;
+}
+
+.figure-rigth {
+  text-align: center;
+  margin-left: 5px;
+}
+
+.title-iten {
+  font-family: 'fontBold';
+}
+
+#div-section {
+  border-radius: 3px;
+  padding: 35px 22px 30px 22px;
+  background-color: #f5f5f5;
+  width: 67%;
+  margin: auto;
+}
+
+.description-iten {
+  color: black;
+  font-family: 'fontLight';
+}
+
+/* ===============Itens recomendados/obrigatorios ===================*/
+
+/* ===============Unidades Abertas/Fechadas ======================== */
+
+#unity-container {
+  display: flex;
+  justify-content: center;
+}
+
+.description-unity {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 2px solid #ececec;
+  box-shadow: 0 0 5px #dbdbdb;
+  margin: 35px 0px 100px 0px;
+  width: 20%;
+  height: 500px;
+}
+
+.first-unity {
+  margin-right: 15px;
+}
+
+.last-unity {
+  margin-left: 15px;
+}
+
+.unity-text {
+  font-family: 'fontBold';
+}
+
+.unity-open {
+  color: var(--green);
+}
+
+.unity-close {
+  color: var(--red);
+}
+
+.title-unity {
+  font-family: 'fontBold';
+  color: var(--dark-grey);
+}
+
+.adress-unity {
+  font-family: 'fontLight';
+  color: var(--light-grey);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.hr-unity {
+  height: 2px;
+  width: 90%;
+  background-color: #e6e6e6;
+  margin: auto;
+}
+
+.element-unity {
+  margin: 18px 10px 5px 10px;
+}
+
+/* ===============Unidades Abertas/Fechadas ======================== */
+footer {
+  padding: 50px 0px 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-grey);
+  color: var(--background);
+}
+
+#img-footer {
+  text-align: center;
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+#text-footer {
+  text-align: center;
+  font-family: 'fontLight';
+}

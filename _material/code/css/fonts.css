@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'fontBlack';
+  src: url('/_material/fonts/gotham-black.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontBold';
+  src: url('/_material/fonts/gotham-bold.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontBook';
+  src: url('/_material/fonts/gotham-book.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontLight';
+  src: url('/_material/fonts/gotham-light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

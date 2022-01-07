@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_material/code/css/style.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section id="header">
+        <div id="logo-fit">
+          <img src="/_material/images/logo.svg" />
+        </div>
+        <div id="title-section">
+          <div class="title">
+            <h1>
+              REABERTURA <br />
+              SMART FIT
+            </h1>
+          </div>
+          <hr />
+          <div>
+            <p class="subTitle">
+              O horário de funcionamento das nossas unidades está seguindo os
+              decretos de cada município. Por isso, confira aqui se a sua
+              unidade está aberta e as medidas de segurança que estamos
+              seguindo.
+            </p>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="search-unity">
+        <div id="form-container">
+          <div id="clock-container">
+            <img id="clock" src="/_material/images/icon-hour.png" />Horário
+          </div>
+          <p class="choosePeriod">Qual período quer treinar?</p>
+          <hr class="hrForm1" />
+          <form>
+            <div id="hour">
+              <div class="shift">
+                <div>
+                  <input type="radio" id="manha" name="horarios" />
+                  <label for="manha">Manhã</label>
+                </div>
+                <div>06:00 às 12:00</div>
+              </div>
+              <hr class="hrForm" />
+              <div class="shift">
+                <div>
+                  <input type="radio" id="tarde" name="horarios" />
+                  <label for="tarde">Tarde</label>
+                </div>
+                <div>12:01 às 18:00</div>
+              </div>
+              <hr class="hrForm" />
+              <div class="shift">
+                <div>
+                  <input type="radio" id="noite" name="horarios" />
+                  <label for="noite">Noite</label>
+                </div>
+                <div>18:01 às 23:00</div>
+              </div>
+              <hr class="hrForm" />
+            </div>
+            <div>
+              <div id="close-unity">
+                <div>
+                  <input type="checkbox" id="unidades-fechadas" />
+                  <label for="unidades-fechadas">
+                    Exibir unidades fechadas</label
+                  >
+                </div>
+                <div id="result-counter">
+                  <div>Resultados encontrados: <strong> 0</strong></div>
+                  <div id="counter"></div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+            <div id="btn-container">
+              <button id="find-btn">ENCONTRAR UNIDADE</button>
+              <button id="clear-btn">LIMPAR</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <div id="div-section">
+        <section id="info-container">
+          <!-- mascara-->
+          <div class="iten-info">
+            <span class="title-iten">Máscara</span>
+            <div class="img-container">
+              <div class="figure">
+                <img
+                  class="icon-info"
+                  src="/_material/images/required-mask.png"
+                />
+                <p class="description-iten">Obrigatório</p>
+              </div>
+              <div class="figure-rigth">
+                <img
+                  class="icon-info"
+                  src="/_material/images/recommended-mask.png"
+                />
+                <p class="description-iten">Recomendado</p>
+              </div>
+            </div>
+          </div>
+          <!-- toalha -->
+          <div class="iten-info">
+            <span class="title-iten">Toalha</span>
+            <div class="img-container">
+              <div class="figure">
+                <img
+                  class="icon-info"
+                  src="/_material/images/required-towel.png"
+                />
+                <p class="description-iten">Obrigatório</p>
+              </div>
+              <div class="figure-rigth">
+                <img
+                  class="icon-info"
+                  src="/_material/images/recommended-towel.png"
+                />
+                <p class="description-iten">Recomendado</p>
+              </div>
+            </div>
+          </div>
+          <!--Bebedouro-->
+          <div class="iten-info">
+            <span class="title-iten">Bebedouro</span>
+            <div class="img-container">
+              <div class="figure">
+                <img
+                  class="icon-info"
+                  src="/_material/images/partial-fountain.png"
+                />
+                <p class="description-iten">Parcial</p>
+              </div>
+              <div class="figure-rigth">
+                <img
+                  class="icon-info"
+                  src="/_material/images/forbidden-fountain.png"
+                />
+                <p class="description-iten">Proibido</p>
+              </div>
+            </div>
+          </div>
+          <!--Vestiarios-->
+          <div class="iten-info">
+            <span class="title-iten">Vestiários</span>
+            <div class="img-container">
+              <div class="figure">
+                <img
+                  class="icon-info"
+                  src="/_material/images/required-lockerroom.png"
+                />
+                <p class="description-iten">Liberado</p>
+              </div>
+              <div class="figure figure-rigth">
+                <img
+                  class="icon-info"
+                  src="/_material/images/partial-lockerroom.png"
+                />
+                <p class="description-iten">Parcial</p>
+              </div>
+              <div class="figure-rigth">
+                <img
+                  class="icon-info"
+                  src="/_material/images/forbidden-lockerroom.png"
+                />
+                <p class="description-iten">Fechado</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section>
+        <div id="unity-container">
+          <div class="description-unity first-unity">
+            <div class="element-unity">
+              <p class="unity-text unity-open">Aberta</p>
+            </div>
+            <div class="element-unity">
+              <h2 class="title-unity">Vicente Linhares</h2>
+            </div>
+            <div class="element-unity">
+              <p class="adress-unity">
+                Rua Tibúrcio Cavalcante, 1885 - Meireles Fortaleza, CE
+              </p>
+            </div>
+            <div class="hr-unity"></div>
+            <div id="info-unity"></div>
+          </div>
+          <div class="description-unity last-unity first-unity">
+            <div class="element-unity">
+              <p class="unity-text unity-close">Fechada</p>
+            </div>
+            <div class="element-unity">
+              <h2 class="title-unity">Vila Carrão</h2>
+            </div>
+            <div class="element-unity">
+              <p class="adress-unity">
+                Av. Guilherme Giogi, 1460, Vila Carrão, São Paulo - SP
+              </p>
+            </div>
+            <div class="hr-unity"></div>
+            <div id="info-unity"></div>
+          </div>
+          <div class="description-unity last-unity">
+            <div class="element-unity">
+              <p class="unity-text unity-close">Fechada</p>
+            </div>
+            <div class="element-unity">
+              <h2 class="title-unity">Vila Carrão</h2>
+            </div>
+            <div class="element-unity">
+              <p class="adress-unity">
+                Av. Guilherme Giorgi, 1460, Vila Carrão, São Paulo - SP
+              </p>
+            </div>
+            <div class="hr-unity"></div>
+            <div id="info-unity"></div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="img-footer">
+        <img src="/_material/images/logo.svg" />
+      </div>
+      <div id="text-footer">
+        <span>Todos os direitos reservados - 2020</span>
+      </div>
+    </footer>
+  </body>
+</html>
