@@ -27,7 +27,6 @@ header {
   background-color: black;
   text-align: center;
   padding: 25px;
-  width: 100%;
 }
 
 #logo-fit img {
@@ -48,7 +47,7 @@ header {
 
 .title {
   font-family: 'fontBold';
-  font-size: 30px;
+  font-size: 25px;
   color: var(--dark-grey);
 }
 
@@ -182,10 +181,9 @@ hr {
 }
 
 /* ===============Itens recomendados/obrigatorios ===================*/
-
 #info-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -259,6 +257,7 @@ hr {
 
 .unity-text {
   font-family: 'fontBold';
+  font-size: 15px;
 }
 
 .unity-open {
@@ -271,13 +270,15 @@ hr {
 
 .title-unity {
   font-family: 'fontBold';
+  font-size: 15px;
   color: var(--dark-grey);
 }
 
 .adress-unity {
   font-family: 'fontLight';
   color: var(--light-grey);
-  width: 70%;
+  font-size: 20px;
+  width: 25%;
   margin-bottom: 20px;
 }
 

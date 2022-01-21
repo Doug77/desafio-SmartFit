@@ -1,0 +1,32 @@
+@import '/_material/code/css/fonts.css';
+@media screen and (min-width: 500px) {
+  #info-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .title {
+    font-family: 'fontBold';
+    font-size: 30px;
+    color: var(--dark-grey);
+  }
+
+  .title-unity {
+    font-family: 'fontBold';
+    color: var(--dark-grey);
+  }
+
+  .unity-text {
+    font-family: 'fontBold';
+  }
+
+  .adress-unity {
+    font-family: 'fontLight';
+    color: var(--light-grey);
+    font-size: 12x;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}
