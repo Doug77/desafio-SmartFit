@@ -7,13 +7,9 @@
 
 # Proposta de Teste
 > A Smart Fit, por atuar no segmento de fitness, passou por várias mudanças na pandemia. Foi necessário desenvolver uma página para buscar unidades **fechadas** ou **abertas** para consulta e reserva.
-
 > Optamos por não disponibilizar a API de buscas de unidades abertas/fechadas original para esse teste.
-
 > Nesse teste você implementará as funcionalidades descritas abaixos. Tenha atenção com as regras de negócios definidas mais adiante.
-
 > Lembre-se de **seguir o layout proposto** em _material.
-
 > Caso não consiga concluir todas as funcionalidade, lembre-se que o mais importante é termos noção da qualidade do código e de suas habilidades para projeto de sistemas. Nesse caso, complemente sua solução com comentários e documentação sobre como terminaria o teste.
 
 ### Funcionalidades
