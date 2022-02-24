@@ -41,10 +41,8 @@
 - Cores
 - imagens
 - fonts
-
 # Entrega
 > No seu github, crie um repositório público com o teste e nos envie (caso queira enviar a url do app funcionando no Heroku, vercel ou equivalente seria um plus)
-
 > Não faça Pull Request para esse repositório.
 
 ### Avaliação
