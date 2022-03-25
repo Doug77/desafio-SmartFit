@@ -1,10 +1,10 @@
 # Front-end Smart Fit
 > Esse é um pequeno projeto criado como base para a avaliação de habilidades técnicas para o papel de Front-end.
 > 
-# Preview
+## Preview
 ![preview](preview.png)
 
-# Proposta de Teste
+## Proposta de Teste
 > A Smart Fit, por atuar no segmento de fitness, passou por várias mudanças na pandemia. Foi necessário desenvolver uma página para buscar unidades **fechadas** ou **abertas** para consulta e reserva.
 > Optamos por não disponibilizar a API de buscas de unidades abertas/fechadas original para esse teste.
 > Nesse teste você implementará as funcionalidades descritas abaixos. Tenha atenção com as regras de negócios definidas mais adiante.
